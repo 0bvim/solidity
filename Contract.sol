@@ -3,7 +3,7 @@ pragma solidity >=0.5.0 <0.6.0;
 contract ZombieFactory {
 
     // declare our event here
-    event NewZombie(uint id, string name, uint dna);
+    event NewZombie(uint zombieId, string name, uint dna);
 
     uint dnaDigits = 16;
     uint dnaModulus = 10 ** dnaDigits;
